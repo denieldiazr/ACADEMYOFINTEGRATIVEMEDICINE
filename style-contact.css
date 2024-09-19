@@ -1,0 +1,931 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    
+}
+
+/*Header*/
+nav{
+    
+    position: fixed;
+    z-index: 1;
+    background: rgba(255, 255, 255);
+    box-shadow: 0px 1px 0px #E5E9F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 165px;
+    height: 70px;
+    width: 100%;
+    
+}
+
+.header nav .container {
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.header .col .div{
+    display: flex;
+}
+.header .col h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    color: #15415A;
+    margin-top: 16px;
+    margin-left: 10px;
+    width: 190px;
+}
+.logo{
+    
+    width: 55px;
+    height: 55px;
+    left: 165px;
+    margin-top: 11px;
+    margin-bottom: 8px;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    float: right;
+}
+.col2{
+    display: none;
+}
+.menu-item{
+    margin-left: 32px;
+    margin-top: 26px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.bar-btn:active{
+    transform: rotate(270deg);
+}
+
+
+
+#check, .bar-btn{
+    display: none;
+}
+
+.A{
+    color: #18191F;
+    text-decoration: none;
+}
+
+.A:hover{
+    color: #02A7A1;
+    font-weight: 600;
+}
+
+.bar-btn{
+    transition: all 300ms;
+}
+    .bar-btn:active{
+        transform: rotate(270deg);
+    }
+
+/*BANNER*/
+
+.banner{
+    
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./img/bc.jpg) no-repeat center center ;
+    width: 100%;
+    height: 312px;
+    padding-top: 72px;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+
+.banner .text{
+    margin-left: 165px;
+    margin-right: 165px;
+    
+}
+
+.banner .text .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 81px;
+}
+
+.banner .text .title h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 58px;
+/* or 91% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.45);
+}
+
+
+
+/*CONTENT*/
+.popular-courses .search4{
+    width: 100%;
+    background: #02A7A1;
+    
+    margin-bottom: 55px;
+    
+}
+
+
+.popular-courses .search1 .row .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-courses .search1 .search select{
+    width: 256.61px;
+    height: 38px;
+
+    background: #FFFFFF;
+    margin-bottom: 25px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #494949;
+    padding-left: 19.89px;
+}
+
+
+
+.icons2{
+    display: flex;
+    margin-left: 59px;
+    margin-bottom: 102px;
+}
+
+.icons2 .logo2 a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.popular-courses{
+    
+    font-style: normal;
+
+}
+
+.popular-courses .content{
+    margin-left: 165px;
+    padding-right: 165px;
+    padding-top: 57px;
+    
+}
+
+.popular-courses .content h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 24px;
+    /* identical to box height, or 92% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #1D182E;
+    margin-bottom: 14px;
+}
+
+.courses .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 110%;
+}
+.col6{
+    background: #02A7A1;
+}
+
+.col5{
+    
+    background: #6F58A6;  
+}
+
+.search1 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    /* identical to box height, or 75% */
+
+
+    color: #fff;
+    margin-left: 59px;
+    margin-top: 85px;
+    margin-right: 82px;
+    margin-bottom: 52px;
+}
+
+.search1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    color: #FFFFFF; 
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 33px;
+    text-align: justify;
+}
+
+.search2{
+    display: block;
+    padding-right:70px;
+    
+    margin-top: 0px;
+}
+
+.search1 .also{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #FFFFFF;
+}
+.search2 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    /* identical to box height, or 75% */
+
+
+    color: #FFFFFF;
+    margin-top: 85px;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 33px;
+}
+
+.search2 input{
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 21px;
+    padding-left: 17px;
+    width: 90%;
+    height: 42px;
+    
+    background: #FFFFFF;
+    border: none;
+}
+
+.search2 textarea{
+    width: 90%;
+    height: 134px;
+    margin-left: 59px;
+    margin-right: 59px;
+    margin-bottom: 21px;
+    padding-left: 17px;
+    padding-top: 17px;
+    background: #fff;
+}
+
+.col5 .button{
+    width: 146px;
+    height: 42px;
+    left: 791px;
+    top: 872px;
+
+    background: #02A7A1;
+    border-radius: 21px;
+    padding-left: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+    margin-bottom: 130px;
+}
+
+.col6 .icons{
+    margin-left: 59px;
+    margin-top: -25px;
+}
+
+
+
+    /*FOOTER*/
+
+    footer{
+        background: #6F58A6;  
+        padding-right: 155px;
+        padding-left: 165px;
+    }
+    
+    footer .content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    footer .container{
+        background: #6F58A6;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    footer .container .card{
+        margin-top: 64px;
+        background: #6F58A6;
+        
+        width: 100%;
+        
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    
+    
+    
+    footer .col12 img{
+        width: 60px;
+        height: 60px;
+        
+        margin-bottom: 40px;
+    }
+    
+    
+    footer .col12 p{
+        line-height: 29px;
+        color: #fff;
+    }
+    
+    .icons ion-icon{
+        color: white;
+    }
+    
+    .icons{
+        display: flex;
+    }
+    .icons .logo{
+        margin-right: -16px;
+        cursor: pointer;
+    }
+    
+    .links{
+        display: block;
+    }
+    
+    .links a{
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        margin-top: 12px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+    
+        font-feature-settings: 'salt' on, 'liga' off;
+    }
+    .icons a img{
+        width: 30px;
+        height: 30px;
+       
+    }
+    
+    footer .icons .logo a {
+         margin-right: 16px;
+    }
+     h3{
+        margin-bottom: 12px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+    
+        font-feature-settings: 'salt' on, 'liga' off;
+    }
+    
+    footer .container .card{
+        width: 130px;
+        margin: 0px;
+        border: none;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    footer .container .card.col23{
+        width: 220px;
+        margin: 0px;
+        border: none;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    footer .container .card.col12{
+        width: 370px;
+        margin: 0px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .logo-title h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* or 120% */
+        color: #FFFFFF;
+        margin-left: 17px;
+    } 
+    .links-email{
+        margin-bottom:75px;
+    }
+    
+    .logo-title{
+        display: flex;
+    }
+    .links-email input{
+        background: #FFFFFF;
+        opacity: 0.2;
+        border-radius: 8px;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+    
+        font-feature-settings: 'salt' on, 'liga' off;
+    
+        /* Text / Gray 300 */
+    
+        color: #fff;
+        padding-left: 12px;
+    }
+    
+    .links-email ion-icon{
+        float: right;
+        margin-top: -20px;
+        padding-right: 15px;
+        color: white;
+    }
+    
+
+    @media screen and (max-width: 1099px){
+        nav{
+            padding-left: 110px;
+            padding-right: 110px;
+        }
+    
+        .banner .text{
+            margin-left: 110px;
+            margin-right: 110px;
+            
+        }
+    
+        .banner .text .paragraph{
+            margin-left: 110px;
+            margin-right: 110px;
+        }
+    
+        .info{
+            margin-left: 110px;
+            margin-right: 110px;
+        }
+    
+        .popular-courses .content{
+            margin-left: 110px;
+            padding-right: 110px;
+        }
+    
+        .numbers{
+            padding-left: 110px;
+            padding-right: 110px;
+        }
+        
+        .news .content{
+            margin-left: 110px;
+            margin-right: 110px;
+        }
+    
+        .opinion{
+            
+            padding-left: 110px;
+            padding-right: 110px;
+        }
+        
+        footer{ 
+            padding-right: 110px;
+            padding-left: 110px;
+        }
+        
+    
+    }
+    
+    @media screen and (max-width: 1019px){
+        nav{
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+    
+        .banner .text{
+            margin-left: 80px;
+            margin-right: 80px;
+            
+        }
+    
+        .banner .text .paragraph{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+    
+    
+        .info{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+    
+        .popular-courses .content{
+            margin-left: 80px;
+            padding-right: 80px;
+            padding-top: 57px;
+            
+        }
+        
+        .numbers{
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        
+        .news .content{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        .opinion{
+            
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        footer{ 
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+    
+        .numbers .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+    
+    @media screen and (max-width: 768px){
+        nav{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    
+        .banner .text{
+            margin-left: 50px;
+            margin-right: 50px;
+            
+        }
+    
+        .banner .text .paragraph{
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: -20px;
+        }
+    
+    
+        .info{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    
+        .popular-courses .content{
+            margin-left: 50px;
+            padding-right: 50px;
+        }
+    
+        .popular-courses .search2{
+            display: block;
+        }
+        .numbers{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        
+        .news .content{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .col2{
+            display: block;
+        }
+        footer{ 
+            padding-right: 10px;
+            padding-left: 50px;
+        }
+    
+        
+        .main-menu{
+            position: absolute;
+            height: 0px;
+            width: 80%;
+            top: 72px;
+            background: rgba(0, 0, 0, 0.65);
+            display: block;
+            text-align: center;
+            transition: all .2s;
+        }
+    
+        .menu-item .A{
+            font-size: 25px;
+            color: #ffffff;
+            
+        }
+    
+        .A:hover{
+            color: #08A9A1;
+            font-weight: 600;
+            transition: .3s;
+        }
+    
+        
+    
+        .main-menu li{
+            padding-top: 30px;
+            transition: all .5s;
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
+    
+        .banner .text .title h1{
+            margin-bottom: 110px;
+            margin-top: 40px;
+        }
+    
+        .bar-btn{
+            display: block;
+            font-size: 25px;
+            color: hwb(267 24% 38%);
+            cursor: pointer;
+            margin-top: 15px;
+            float: right;
+        }
+    
+        #check{
+            display: none;
+        }
+    
+       #check:checked ~ .main-menu{
+            height: 330px;
+        }
+    
+        #check:checked ~ .main-menu li{
+            display: block;
+        }
+    
+        .header nav .container {
+            display: block;
+            justify-content: space-between; 
+        }
+    
+        .cuadro .container {
+            justify-content:start;
+        }
+    
+        .opinion{
+            
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 576px){
+        nav{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    
+        .banner .text{
+            margin-left: 25px;
+            margin-right: 25px;
+            
+        }
+    
+        .banner .text .button{
+            margin-top: 25px;
+        }
+    
+        .banner .text .paragraph{
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 5px;
+        }
+
+        .icons2{
+            
+            margin-left: 25px;
+            margin-bottom: 51px;
+        }
+    
+        .banner .text .title h1{
+           
+            margin-top: -10px;
+        }
+        .info{
+            margin-left: 45px;
+            margin-right: 84
+        }
+       
+        .popular-courses .content{
+            margin-left: 25px;
+            padding-right: 25px;
+        }
+    
+        .numbers{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        
+        .news .content{
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        footer{ 
+            padding-right: 1px;
+            padding-left: 25px;
+        }
+        .opinion{
+            
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+
+        .search1 h2{
+        
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .search1 p{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .search2{
+            display: block;
+            padding-right:30px;
+            
+            margin-top: 0px;
+        }
+        
+        .search1{
+            
+        }
+        .search2 h2{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .search2 input{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .search2 textarea{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .col6 .icons{
+            margin-left: 30px;
+        }
+    }
+    
+    @media screen and (max-width: 379px){
+        nav{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .header .col h1{
+            font-size: 12px;
+        }
+    
+        .banner .text .title h1{
+            font-size: 28px;
+        }
+    
+        .cuadro {
+            
+            max-width: 375px;
+        } 
+        .cuadro img{
+            
+            max-width: 105px;
+        }
+        .banner .text{
+            margin-left: 15px;
+            margin-right: 15px;
+            
+        }
+    
+        .banner .text .paragraph{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    
+    
+        .info{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    
+        .popular-courses .content{
+            margin-left: 15px;
+            padding-right: 15px;
+        }
+    
+        .numbers{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .news .content{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        footer{ 
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    
+        .opinion{
+            
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+       
+    }

@@ -1,0 +1,1340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+/*Header*/
+nav{
+    position: fixed;
+    z-index: 1;
+    background: rgba(255, 255, 255);
+    box-shadow: 0px 1px 0px #E5E9F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 165px;
+    height: 70px;
+    width: 100%;
+}
+
+.header nav .container {
+    display: flex;
+    justify-content: space-between; 
+}
+.header .col .div{
+    display: flex;
+}
+.header .col h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    color: #15415A;
+    margin-top: 16px;
+    margin-left: 10px;
+    width: 190px;
+}
+.logo{
+    
+    width: 55px;
+    height: 55px;
+    left: 165px;
+    margin-top: 11px;
+    margin-bottom: 8px;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    float: right;
+}
+.col2{
+    display: none;
+}
+.menu-item{
+    margin-left: 32px;
+    margin-top: 26px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.bar-btn:active{
+    transform: rotate(270deg);
+}
+
+
+
+#check, .bar-btn{
+    display: none;
+}
+
+.A{
+    color: #18191F;
+    text-decoration: none;
+}
+
+.A:hover{
+    color: #02A7A1;
+    font-weight: 600;
+}
+
+.bar-btn{
+    transition: all 300ms;
+}
+    .bar-btn:active{
+        transform: rotate(270deg);
+    }
+
+/*Contenido*/
+
+/*Banner*/
+
+.banner .text{
+    margin-left: 165px;
+    margin-right: 165px;
+    
+}
+
+.banner .img{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./img/bh2.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 502px;
+    padding-top: 72px;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+
+.banner .text .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .text .title h1{
+    width: 844px;
+    height: 79px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.45);
+    margin-bottom: 71px;
+    margin-top: 50px;
+}
+
+.banner .text .paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+    margin-right: 165px;
+    
+}
+
+.banner .text .paragraph p{
+    text-align: center;
+    width: 645px;
+    height: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 154% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.banner .text .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.banner .text .button .view{
+    width: 200px;
+    height: 47px;
+
+    background: #6F58A6;
+    border-radius: 23.5px;
+    border: none;
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+}
+
+.banner .img-banner{
+    margin-top: 72px;
+    width: 100%;
+   
+}
+
+.banner{
+    padding-top: 72px;
+}
+
+/*Info*/
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.cuadro{
+    width: 826px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.35);
+    display: flex;
+    margin-top: -37px;
+    padding-left: 65px;
+    
+    
+    margin-bottom: 39px;
+}
+
+.col .side-1 h1{
+    
+    padding-top: 37px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #02A7A1;
+    margin-bottom: 12px;
+}
+
+
+.side-1 h1 span{
+    color: #6F58A6;
+}
+
+.side-1 p{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 182% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #494949;
+    margin-bottom: 32px;
+}
+
+.side-1 .button{
+    width: 115px;
+    height: 31px;
+    background: #02A7A1;
+    border-radius: 23.5px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #fff;
+}
+
+
+.side-2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.side-2 .img{
+    width: 224px;
+    height: 292px;
+    padding-top: 37px;
+    filter: drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.45));
+}
+
+.side-2 .botones{
+    display: flex;
+    width: 224px;
+}
+
+
+.side-2 .botones .btn1{
+    width:50%;
+    height: 29px;
+    font-weight: 700;
+    font-size: 10px;
+    background: #02A7A1;
+    border: none;
+    font-weight: 700;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+
+.side-2 .botones .btn2{
+    
+    width: 50%;
+    height: 29px;
+
+    background: #6F58A6;
+    font-weight: 700;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+
+/*POPULAR COURSES*/
+.popular-courses{
+    background: #F5F5F5;
+    
+}
+
+.popular-courses .content{
+    margin-left: 155px;
+    padding-right: 165px;
+    padding-top: 57px;
+    
+}
+
+.popular-courses .content h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 24px;
+    /* identical to box height, or 92% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #1D182E;
+    margin-bottom: 14px;
+}
+
+
+.popular-courses .content .p1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #494949;
+    margin-bottom: 47px;
+}
+
+.courses .card .cuadro2{
+    width: 300px;
+
+    height: 384px;
+    
+    margin-bottom: 70px;
+    border: 3px solid #6F58A6;
+}
+
+
+.news .courses .card .cuadro23{
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    
+    border: 3px solid #02A7A1;
+}
+
+.cuadro23 img{
+    width: 294px;
+}
+
+.courses.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.numbers .courses.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.popular-courses .card, .news .card{
+    margin: 10px;
+    
+    height: 374px;
+    margin-bottom: 50px;
+}
+
+.cuadro23 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #1D182E;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.cuadro23 .p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    /* or 138% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #494949;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
+.courses .cola{
+    display: flex;
+    justify-content: center;
+    
+    width: 258px;
+}
+.popular-courses .content .courses .cuadro2 .doct{
+    width: 254px;
+}
+
+.cuadro2 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #1D182E;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+
+.cuadro2 .p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    /* or 138% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #494949;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.doct1{
+    background: url(./img/COURSE1.png) ;
+    width: 294px;
+    height: 180px;
+    background-repeat : no-repeat;
+   background-size : contain;
+
+}
+
+.doct2{
+    background: url(./img/COURSE2.png) ;
+    width: 294px;
+    height: 177px;
+    background-repeat : no-repeat;
+   background-size : cover;
+}
+
+.doct3{
+    background: url(./img/COURSE\ 3.jpg) center center ;
+    width: 294px;
+    height: 177px;
+    background-repeat : no-repeat;
+   background-size : cover;
+
+   border: 1px solid;
+}
+
+.doct4{
+    background: url(./img/NEWS1.png) ;
+    width: 294px;
+    height: 180px;
+    background-repeat : no-repeat;
+   background-size : contain;
+
+}
+
+.doct5{
+    background: url(./img/NEWS2.png) ;
+    width: 294px;
+    height: 177px;
+    background-repeat : no-repeat;
+   background-size : cover;
+}
+
+.doct6{
+    background: url(./img/NEWS3.png) center center ;
+    width: 294px;
+    height: 177px;
+    background-repeat : no-repeat;
+   background-size : cover;
+
+}
+.bran img{
+    width: 35px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 19px;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+
+.stars{
+    float: right;
+    margin-right: 19px;
+    margin-bottom: 15px;
+}
+
+.stars .last{
+    color: #D9D9D9;;
+}
+
+.fa-star{
+    font-size: 9px;
+    color: #F3C614;
+    margin-right: 9px;
+    margin-bottom: 5px;
+}
+
+.popular-courses .content .btn{
+    margin-top: 35px;
+    margin-bottom: 48px;
+    width: 242px;
+    height: 47px;
+    left: 599px;
+    top: 1443px;
+
+    background: #6F58A6;;
+    border-radius: 23.5px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+}
+
+.popular-courses .content .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-courses .content .courses{
+    display: flex;
+}
+/*NUMBERS*/
+
+.plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 24px;
+    /* identical to box height, or 60% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+    padding-top: -10px;
+    color: #FFFFFF;
+}
+.numbers{
+    
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./img/b2.jpg) no-repeat center center fixed;
+    padding-top: 80px;
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        
+        display: flex;
+        justify-content: center;
+
+}
+
+
+
+.numbers .card2{
+    margin: 10px;
+}
+
+.numbers .courses.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 165px;
+    margin-right: 165px;
+    width: 84%;
+}
+
+
+.cuadro-number{
+    width: 190px;
+    height: 117px;
+    background: #02A7A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 63px;
+    border-radius: 10px;
+}
+.cuadro-number .number{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 24px;
+    /* identical to box height, or 60% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+
+.cuadro-number h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+}
+.inner{
+    text-align: center;
+}
+
+
+/*News*/
+
+
+.news .content{
+    margin-left: 155px;
+    margin-right: 165px;
+    padding-top: 57px;
+    padding-bottom: 42px;
+    justify-content: center;
+
+}
+
+.news .content h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 24px;
+    /* identical to box height, or 92% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #1D182E;
+    margin-bottom: 14px;
+}
+
+.news .content .p1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #494949;
+    
+}
+
+.news .content .courses .cuadro2 img{
+    width: 3000px;
+}
+
+
+
+
+
+.news .content .courses{
+    display: flex;
+}
+
+.button-news{
+    width: 95px;
+    height: 23px;
+
+    background: #02A7A1;
+    border-radius: 23.5px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.news .content .cuadro2{
+    margin-top: 47px;
+}
+
+/*FOOTER*/
+footer{
+    background: #6F58A6;  
+    padding-right: 155px;
+    padding-left: 165px;
+}
+
+footer .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer .container{
+    background: #6F58A6;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container .card{
+    margin-top: 64px;
+    background: #6F58A6;
+    
+    width: 100%;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+footer .col12 img{
+    width: 60px;
+    height: 60px;
+    
+    margin-bottom: 40px;
+}
+
+
+footer .col12 p{
+    line-height: 29px;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: white;
+}
+
+.icons{
+    display: flex;
+}
+.icons .logo{
+    margin-right: -16px;
+    cursor: pointer;
+}
+
+.links{
+    display: block;
+}
+
+.links a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin-top: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.icons a img{
+    width: 30px;
+    height: 30px;
+   
+}
+
+footer .icons .logo a {
+     margin-right: 16px;
+}
+ h3{
+    margin-bottom: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+footer .container .card{
+    width: 130px;
+    margin: 0px;
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+footer .container .card.col23{
+    width: 220px;
+    margin: 0px;
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+footer .container .card.col12{
+    width: 370px;
+    margin: 0px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.logo-title h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    color: #FFFFFF;
+    margin-left: 17px;
+} 
+.links-email{
+    margin-bottom:75px;
+}
+
+.logo-title{
+    display: flex;
+}
+.links-email input{
+    background: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 300 */
+
+    color: #fff;
+    padding-left: 12px;
+}
+
+.links-email ion-icon{
+    float: right;
+    margin-top: -20px;
+    padding-right: 15px;
+    color: white;
+}
+
+@media screen and (max-width: 1099px){
+    nav{
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .banner .text{
+        margin-left: 110px;
+        margin-right: 110px;
+        
+    }
+
+    .banner .text .paragraph{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .info{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .popular-courses .content{
+        margin-left: 110px;
+        padding-right: 110px;
+        
+    }
+
+ 
+    .numbers .courses.container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 110px;
+        margin-right: 110px;
+        
+    }
+    .news .content{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+    
+    footer{ 
+        padding-right: 110px;
+        padding-left: 110px;
+    }
+    
+
+}
+
+@media screen and (max-width: 1019px){
+    nav{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .banner .text{
+        margin-left: 80px;
+        margin-right: 80px;
+        
+    }
+
+    .banner .text .paragraph{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .numbers .courses.container{
+    
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 84%;
+    }
+    .info{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .popular-courses .content{
+        margin-left: 80px;
+        padding-right: 80px;
+        padding-top: 57px;
+        
+    }
+    
+    .numbers{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .news .content{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    footer{ 
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+    .numbers .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .banner .text{
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+
+    .numbers .courses.container{
+    
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 84%;
+    }
+
+    .banner .text .paragraph{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: -20px;
+    }
+
+
+    .info{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .info .cuadro .container .row {
+        display: block;
+        margin-bottom: 70px;
+    }
+
+    .side-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+    .popular-courses .content{
+        margin-left: 50px;
+        padding-right: 50px;
+    }
+
+    
+    .news .content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .col2{
+        display: block;
+    }
+    footer{ 
+        padding-right: 10px;
+        padding-left: 50px;
+    }
+
+    
+    .main-menu{
+        position: absolute;
+        height: 0px;
+        width: 80%;
+        top: 72px;
+        background: rgba(0, 0, 0, 0.65);
+        display: block;
+        text-align: center;
+        transition: all .2s;
+    }
+
+    .menu-item .A{
+        font-size: 25px;
+        color: #ffffff;
+        
+    }
+
+    .A:hover{
+        color: #08A9A1;
+        font-weight: 600;
+        transition: .3s;
+    }
+
+    
+
+    .main-menu li{
+        padding-top: 30px;
+        transition: all .5s;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .banner .text .title h1{
+        margin-bottom: 110px;
+        margin-top: 40px;
+    }
+
+    .bar-btn{
+        display: block;
+        font-size: 25px;
+        color: hwb(267 24% 38%);
+        cursor: pointer;
+        margin-top: 15px;
+        float: right;
+    }
+
+    #check{
+        display: none;
+    }
+
+   #check:checked ~ .main-menu{
+        height: 330px;
+    }
+
+    #check:checked ~ .main-menu li{
+        display: block;
+    }
+
+    .header nav .container {
+        display: block;
+        justify-content: space-between; 
+    }
+
+    .cuadro .container {
+        justify-content:start;
+    }
+    .cuadro{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .courses.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    nav{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .banner .text{
+        margin-left: 25px;
+        margin-right: 25px;
+        
+    }
+
+    .banner .text .button{
+        margin-top: 25px;
+    }
+
+    .banner .text .paragraph{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 5px;
+    }
+
+    .banner .text .title h1{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    .info{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    
+
+   
+    .numbers{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .news .content{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    
+    footer{ 
+        padding-right: 1px;
+        padding-left: 25px;
+    }
+    .banner .text .button{
+        margin-top: 45px;
+    }
+
+    .side-1 h1{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .side-1 p{
+        margin-left: 15px;
+        padding-right: 15px;
+    }
+
+    .side-1 .button{
+        margin-left: 15px;
+        padding-right: 15px;
+    }
+
+    .side-2 .img{
+        
+    }
+
+    .cuadro{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 379px){
+    nav{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+
+
+    .banner .text .title h1{
+        font-size: 28px;
+    }
+
+    .banner .text{
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+
+    .banner .text .paragraph{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    .info{
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+
+    .col .side-1 h1{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .side-1 p{
+        margin-left: 15px;
+        padding-right: 15px;
+    }
+
+    .popular-courses .content{
+        margin-left: 15px;
+        padding-right: 15px;
+    }
+
+    .numbers{
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .news .content{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    footer{ 
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
